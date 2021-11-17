@@ -15,4 +15,3 @@ RUN mv /root/.symfony/bin/symfony /usr/local/bin/symfony
 
 RUN git clone https://github.com/Lilowl06/nuvola.git .
 RUN composer require symfony/runtime
-EXPOSE 8081
