@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo Salut ce ci est un test
+
+artifacts:
+  files:
+    - build/*
+    - mysql/*
+    - symfony/*
+    - docker-compose.yml
