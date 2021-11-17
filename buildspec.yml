@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo Salut ce ci est un test
+      - echo Salut ceci est un test
 
 artifacts:
   files:
