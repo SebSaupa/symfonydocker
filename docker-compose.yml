@@ -21,7 +21,7 @@ services:
     depends_on:
       - database
     ports:
-      - '8000:8000'
+      - '80:8000'
     volumes:
       - ./nuvola:/appSymfony
     command: 'symfony server:start'
