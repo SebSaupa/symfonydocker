@@ -23,5 +23,5 @@ services:
     ports:
       - '8000:8000'
     volumes:
-      - .symfony/nuvola:/appSymfony
+      - ./nuvola:/appSymfony
     command: 'symfony server:start'
